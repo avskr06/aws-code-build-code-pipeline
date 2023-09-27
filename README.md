@@ -34,7 +34,8 @@ convention if it is k8 use that naming convention. here we are using docker so w
 ![image](https://github.com/avskr06/aws-code-build-code-pipeline/assets/144780588/2d8aa59c-7ef8-4733-8dd1-a0a27e6d147c)
 
 # Once after completion of the above one we need to come home page of code build and click on start build 
-![image](https://github.com/avskr06/aws-code-build-code-pipeline/assets/144780588/41f05f9e-40e1-48db-85ab-99237e1e8452)
+![image](https://github.com/avskr06/aws-code-build-code-pipeline/assets/144780588/082ceb32-e93e-4ad2-a392-165331285fe3)
+
 Here you can view the Build progress and events and you can observe the logs in cloud watch as well and once after build is complete we need to use code pipline
 
 # Now let's start creating pipeline 
