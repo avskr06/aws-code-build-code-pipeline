@@ -12,7 +12,8 @@ First we create new git hub repoistory where we use this in our build process
 
   f. Under Environment choose *Managed image* and select operating system as *ubunutu* and runtime choose as *standard* under image choose always latest *7.0*   under Environtype choose as *Linux* check in 
   *Privilaged box* and under service role we create in IAM codebuild admin access  and we need to create aws systems manager access also where it requires to comminucate
-  ![image](https://github.com/avskr06/aws-code-build-code-pipeline/assets/144780588/11d26bf8-e38b-4ea0-a569-506fa6e32945)
+  ![image](https://github.com/avskr06/aws-code-build-code-pipeline/assets/144780588/0fb7bc5b-5f48-49c4-bdd4-6aad2f3c6d9e)
+
   
   g. Under build spec we choose *Insert build commands* and we write what is required for our application to be build
    Let's first talk about phases what you want to install here we basically install python we have written as python and we are including any commands while run time
