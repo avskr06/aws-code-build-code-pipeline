@@ -2,9 +2,10 @@ version: 0.2
 
 env:
   variables:
-      DOCKER_REGISTRY_URL: /sampleapp/docker-registry/url
+  
       DOCKER_REGISTRY_USERNAME: /sampleapp/docker-credentials/username	
       DOCKER_REGISTRY_PASSWORD: /sampleapp/docker-credentials/password
+      DOCKER_REGISTRY_URL: /sampleapp/docker-registry/url
      
 phases:
   install:
